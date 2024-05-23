@@ -12,6 +12,7 @@ BOT_NAME = "coleta"
 SPIDER_MODULES = ["coleta.spiders"]
 NEWSPIDER_MODULE = "coleta.spiders"
 
+#agent user my
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
