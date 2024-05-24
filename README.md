@@ -36,3 +36,32 @@ para rodar o streamlit
 ```bash
 $ streamlit run src/dashboard/app.py
 ```
+
+## Lost
+```bash
+$ pyenv local 3.12.1
+```
+```bash
+$ python -m venv .venv
+```
+```bash
+$ source .venv/Scripts/activate
+```
+```bash
+$ pip install scrapy
+```
+```bash
+$ scrapy startproject coleta
+```
+```bash
+$ cd coleta/
+```
+```bash
+$ scrapy genspider mercadolivre https://lista.mercadolivre.com.br/tenis-corrida-masculino
+```
+```bash 
+$ scrapy shell #abrir terminal
+```
+```bash
+$ exit() #fechar terminal
+```
