@@ -12,8 +12,8 @@ class MercadolivreSpider(scrapy.Spider):
         
         for product in products:
 
-            prices = product.css('span.andes-money-amount__fraction::text').get()
-            cents = product.css('span.andes-money-amount__cents::text').get()
+            prices = product.css('span.andes-money-amount__fraction::text').getall()
+            cents = product.css('span.andes-money-amount__cents::text').getall()
 
             yield {
                 'brand': product.css('span.ui-search-item__brand-discoverability.ui-search-item__group__element::text').get(),

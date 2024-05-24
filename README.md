@@ -24,7 +24,7 @@ $ source .venv/Scripts/activate
 
 para rodar o web scraping
 ```bash
-$ scrapy crawl mercadolivre -o ../../data/data.jsonl
+$ scrapy crawl mercadolivre -o ../../data/data.jsonl #dentro do coleta/
 ```
 
 para rodar o pandas
@@ -64,4 +64,16 @@ $ scrapy shell #abrir terminal
 ```
 ```bash
 $ exit() #fechar terminal
+```
+```bash
+$ pip install pandas
+```
+```bash
+$ python src/transformacao/main.py
+```
+```bash
+$ pip install streamlit
+```
+```bash
+$ streamlit run src/dashboard/app.py
 ```
