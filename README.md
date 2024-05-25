@@ -34,7 +34,7 @@ $ python src/transformacao/main.py
 
 para rodar o streamlit
 ```bash
-$ streamlit run src/dashboard/app.py
+$ streamlit run dashboard/app.py
 ```
 
 ## Lost
@@ -75,5 +75,5 @@ $ python src/transformacao/main.py
 $ pip install streamlit
 ```
 ```bash
-$ streamlit run src/dashboard/app.py
+$ streamlit run dashboard/app.py
 ```
